@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #d8d2d2;
+}
+.container {
+  max-width: 1494px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+h1 {
+  color: #3c82f4;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.nav__left img{
+  width: 90px;
+  height: 90px;
+}
+.nav_right a,
+i {
+  margin-left: 20px;
+  color: blue;
+  font-size: 20px;
+}
+.fa-instagram {
+  color: red;
+}
+.fa-youtube {
+  color: crimson;
+}
+.nav__buttom {
+  display: flex;
+  margin-top: 175px;
+  margin-bottom: 90px;
+  gap: 50px;
+}
+
+.nav-buttom__right h2 {
+  margin-bottom: 90px;
+  font-size: 30px;
+}
+.nav-buttom__right p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.header-img {
+  border-radius: 20px;
+  width: 726px;
+}
+.main-left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+    justify-content: space-between;
+}
+.main-top__left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+.img-top__img{
+    border-radius: 20px;
+}
+.main-top__text{
+    width: 400px;
+}
+
+h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+/* main-buttom  */
+.main-buttom{
+    display: flex;
+    align-items: center;
+}
+.main-buttom__text h3{
+  font-size: 30px;
+}
+.parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-top__left{
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: 20px;
+}
+h1{
+  color: black;
+}
+/* main section end */
+
+
+/* footer */
+.footer-top{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+
+}
+.footer-right{
+  font-size: 20px;
+}
+
+.footer-left{
+  display: flex;
+  align-items: center;
+}
+.footer-left h1{
+  margin-left: 22px;
+}
+.nav-buttom_right h2{
+
+}
+.nav_p{
+  margin-top: 100px;
+}
+.footer-left img{
+  width: 90px;
+  height: 90px;
+}
